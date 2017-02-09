@@ -16,7 +16,7 @@ using Acr.UserDialogs;
 namespace BookStoreMvvm.UI.Droid.Views
 {
     [Activity(Label = "Other Page")]
-    public class OtherPageView : MvxActivity<OtherPageViewModel>
+    public class OtherPageView : MvxActivity<BookViewModel>
     {
         
         protected override void OnViewModelSet()

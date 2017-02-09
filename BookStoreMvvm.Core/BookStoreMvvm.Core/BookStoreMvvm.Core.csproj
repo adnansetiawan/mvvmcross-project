@@ -37,7 +37,7 @@
     <Compile Include="Services\CalculatorService.cs" />
     <Compile Include="Services\Contracts\ICalculatorService.cs" />
     <Compile Include="ViewModel\CalculatorViewModel.cs" />
-    <Compile Include="ViewModel\OtherPageViewModel.cs" />
+    <Compile Include="ViewModel\BookViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Acr.UserDialogs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">

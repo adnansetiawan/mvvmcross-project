@@ -71,7 +71,7 @@ namespace BookStoreMvvm.Core.ViewModel
         }
         protected void ShowOtherPage()
         {
-            ShowViewModel<OtherPageViewModel>();
+            ShowViewModel<BookViewModel>();
         }
     }
 }
