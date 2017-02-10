@@ -2295,7 +2295,7 @@ namespace BookStoreMvvm.UI.Droid
 			public const int abc_select_dialog_material = 2130903063;
 			
 			// aapt resource value: 0x7f030018
-			public const int BookInListView = 2130903064;
+			public const int BookListView = 2130903064;
 			
 			// aapt resource value: 0x7f030019
 			public const int Calculator = 2130903065;

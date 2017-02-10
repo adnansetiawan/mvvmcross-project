@@ -5,7 +5,7 @@ using MvvmCross.Droid.Views;
 
 namespace BookStoreMvvm.UI.Droid.Views
 {
-    [Activity(Label = "Calculator", MainLauncher = true)]
+    //[Activity(Label = "Calculator", MainLauncher = true)]
     public class CalculatorView : MvxActivity<CalculatorViewModel>
     {
        

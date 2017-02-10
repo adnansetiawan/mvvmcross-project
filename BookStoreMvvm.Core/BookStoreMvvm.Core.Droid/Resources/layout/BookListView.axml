@@ -8,5 +8,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         local:MvxItemTemplate="@layout/row_layout"
-        local:MvxBind="ItemsSource Items; ItemLongClick Alert" />
+        local:MvxBind="ItemsSource Items; ItemLongClick ShowInfo" />
 </LinearLayout>

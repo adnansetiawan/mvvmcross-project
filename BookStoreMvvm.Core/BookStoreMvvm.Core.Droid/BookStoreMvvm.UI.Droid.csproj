@@ -168,7 +168,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="Views\CalculatorView.cs" />
-    <Compile Include="Views\OtherPageView.cs" />
+    <Compile Include="Views\BookView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -188,7 +188,7 @@
     <AndroidResource Include="Resources\layout\row_layout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\BookInListView.axml">
+    <AndroidResource Include="Resources\layout\BookListView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
