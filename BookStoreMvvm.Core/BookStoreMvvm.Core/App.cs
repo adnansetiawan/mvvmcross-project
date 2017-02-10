@@ -19,6 +19,6 @@ namespace BookStoreMvvm.Core
             Mvx.RegisterType<ICalculatorService, CalculatorService>();
             Mvx.RegisterSingleton<IMvxAppStart>(new MvxAppStart<CalculatorViewModel>());
             Mvx.RegisterSingleton<IUserDialogs>(UserDialogs.Instance);
-        }
+                   }
     }
 }

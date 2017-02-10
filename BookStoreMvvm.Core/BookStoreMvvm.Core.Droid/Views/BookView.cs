@@ -15,7 +15,8 @@ using Acr.UserDialogs;
 
 namespace BookStoreMvvm.UI.Droid.Views
 {
-    [Activity(Label = "Book List", MainLauncher = true)]
+    //[Activity(Label = "Book List", MainLauncher = true)]
+    [Activity(Label = "Book List")]
     public class BookView : MvxActivity<BookViewModel>
     {
         

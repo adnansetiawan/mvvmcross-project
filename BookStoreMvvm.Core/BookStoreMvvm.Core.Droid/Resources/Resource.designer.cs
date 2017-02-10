@@ -1809,6 +1809,9 @@ namespace BookStoreMvvm.UI.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f0b007a
+			public const int ButtonSendFeedback = 2131427450;
+			
 			// aapt resource value: 0x7f0b000a
 			public const int MvvmCrossTagId = 2131427338;
 			
@@ -1816,10 +1819,13 @@ namespace BookStoreMvvm.UI.Droid
 			public const int MvxBindingTagUnique = 2131427339;
 			
 			// aapt resource value: 0x7f0b0079
-			public const int Text = 2131427449;
+			public const int SpinnerFeedbackType = 2131427449;
 			
-			// aapt resource value: 0x7f0b007a
-			public const int Text2 = 2131427450;
+			// aapt resource value: 0x7f0b007b
+			public const int Text = 2131427451;
+			
+			// aapt resource value: 0x7f0b007c
+			public const int Text2 = 2131427452;
 			
 			// aapt resource value: 0x7f0b006c
 			public const int action0 = 2131427436;
@@ -2367,19 +2373,22 @@ namespace BookStoreMvvm.UI.Droid
 			public const int OtherPage = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int row_layout = 2130903088;
+			public const int RelatifLayout1 = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int select_dialog_item_material = 2130903089;
+			public const int row_layout = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int select_dialog_multichoice_material = 2130903090;
+			public const int select_dialog_item_material = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int select_dialog_singlechoice_material = 2130903091;
+			public const int select_dialog_multichoice_material = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int support_simple_spinner_dropdown_item = 2130903092;
+			public const int select_dialog_singlechoice_material = 2130903092;
+			
+			// aapt resource value: 0x7f030035
+			public const int support_simple_spinner_dropdown_item = 2130903093;
 			
 			static Layout()
 			{

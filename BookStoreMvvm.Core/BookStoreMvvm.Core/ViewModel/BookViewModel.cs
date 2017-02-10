@@ -41,6 +41,7 @@ namespace BookStoreMvvm.Core.ViewModel
         }
        
 
+
         public ICommand ShowInfo
         {
             get
@@ -60,5 +61,9 @@ namespace BookStoreMvvm.Core.ViewModel
             output.Append($"Price: {book.Price}");
             return output.ToString();
         }
+
+       
+
+
     }
 }

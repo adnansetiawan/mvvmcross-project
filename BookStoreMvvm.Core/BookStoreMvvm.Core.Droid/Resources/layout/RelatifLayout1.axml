@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+    <!--Put form controls here-->
+        <EditText
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:layout_width="fill_parent"
+            local:MvxBind="Text Title; Error Errors['Title']"
+            />
+        
+        <EditText
+            android:layout_height="wrap_content"
+            android:hint="Author"
+            local:MvxBind="Text Author"
+            android:layout_width="fill_parent" />
+        <Mvx.MvxSpinner
+            android:id="@+id/SpinnerFeedbackType"
+            android:layout_height="wrap_content"
+            android:hint="Year"
+            android:layout_width="fill_parent"
+            local:MvxBind="ItemsSource Years; SelectedItem SelectedYear"/>
+      
+         <TextView
+            android:layout_height="wrap_content"
+            android:hint="Year"
+            local:MvxBind="Text SelectedYear"
+            android:layout_width="fill_parent" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_height="fill_parent">
+            <Button
+                android:id="@+id/ButtonSendFeedback"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                local:MvxBind="Click Save"
+                android:layout_weight="1"
+                android:layout_width="wrap_content" />
+            <Button
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:layout_weight="1"               
+                android:layout_width="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

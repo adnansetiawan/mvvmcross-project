@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace BookStoreMvvm.Core
 {
@@ -17,5 +18,8 @@ namespace BookStoreMvvm.Core
         public string Author { get; set; }
         public decimal Price { get; set; }
         public int Year { get; set; }
+
+      
+
     }
 }
