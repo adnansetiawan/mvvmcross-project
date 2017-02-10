@@ -41,7 +41,7 @@ namespace BookStoreMvvm.Core.ViewModel
         }
        
 
-        public ICommand Alert
+        public ICommand ShowInfo
         {
             get
             {

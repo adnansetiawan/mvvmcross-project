@@ -15,17 +15,16 @@ using Acr.UserDialogs;
 
 namespace BookStoreMvvm.UI.Droid.Views
 {
-    [Activity(Label = "Other Page")]
-    public class OtherPageView : MvxActivity<BookViewModel>
+    [Activity(Label = "Book List", MainLauncher = true)]
+    public class BookView : MvxActivity<BookViewModel>
     {
         
         protected override void OnViewModelSet()
         {
             base.OnViewModelSet();
-            SetContentView(Resource.Layout.BookInListView);
+            SetContentView(Resource.Layout.BookListView);
             UserDialogs.Init(this);
         }
-
-
+        
     }
 }

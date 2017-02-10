@@ -13,14 +13,14 @@
         <TextView
             android:id="@+id/Text2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="15.0dp"
             android:textSize="14dip"
             android:paddingLeft="100dip"
             local:MvxBind="Text Title" />
     </LinearLayout>
     <Mvx.MvxImageView
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:padding="5dp"
+        android:layout_width="78.0dp"
+        android:layout_height="82.5dp"
+        android:padding="5dip"
         local:MvxBind="ImageUrl Image" />
 </RelativeLayout>
